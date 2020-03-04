@@ -50,10 +50,10 @@ void loop() {
   a = 0;
 
 button = digitalRead(Pinbut); 
-if(digitalRead(button == HIGH)){
-  dire = !dire;  
- }
- }
+if(button == HIGH){
+  dire = true;  
+   }
+  }
  }
 }
 
